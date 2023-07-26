@@ -1,0 +1,361 @@
+html {
+  height: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+  height: 100% !important;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border-color: #21addf -moz-use-text-color #21addf;
+  border-style: #21addf solid none;
+  border-width: 1px 0;
+  margin: 5px 0;
+}
+
+div.stimuliContainer {
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 0%;
+  position: relative;
+}
+
+img.stimuli {
+  width: 90%;
+  float: left;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+.stimuliText {
+  padding: 0 5px 0 0;
+  margin: 0 5px 0 0;
+}
+
+.stimuliQuestion {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 99%;
+}
+
+.whiteBox {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+  padding: 25px;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #999999;
+}
+
+.killPadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.fixWidth {
+  display: block;
+  min-width: 33%;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+.fixWidth2 {
+  display: block;
+  min-width: 29%;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.smalltext {
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 95%;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type=radio] {
+  -ms-transform: scale(1.35);
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
+}
+
+.btn-primary {
+  border: 1px solid #4CAF50;
+  border-radius: 0;
+  padding: 5px 10px;
+  background: transparent;
+  color: #4CAF50;
+  transition: 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #4CAF50;
+  color: #ffffff;
+  border: 1px solid #4CAF50;
+  transition: 0.3s ease-in-out;
+}
+
+#progressBarBG {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+#progressBar {
+  width: 0%;
+  font-size: 9px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 5px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+label.error {
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+}
+
+relative {
+  position: relative;
+}
+
+label.errorStar {
+  position: absolute;
+  transform: translate(0px);
+}
+
+.centerAlign {
+  position: absolute;
+  font-size: 11px;
+  font-weight: bold;
+  right: 50%;
+  top: 25%;
+}
+
+input.error {
+  border: 2px solid red;
+}
+
+select.error {
+  border: 2px solid red;
+}
+
+header {
+  padding: 30px 0 0 0;
+}
+header .logo a img {
+  width: 200px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.row.row-align {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+[type=button]:not(:disabled) {
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+[type=reset]:not(:disabled) {
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+[type=submit]:not(:disabled) {
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+@media only screen and (min-width: 400px) {
+  div.stimuliContainer {
+    background-color: white;
+    width: 49%;
+    max-width: 290px;
+    padding-top: 0%;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 576px) {
+  html {
+    background: white !important;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .whiteBox {
+    background: transparent;
+    box-shadow: 0 0 0 white !important;
+    position: absolute;
+    height: 100%;
+    border-radius: .0em !important;
+  }
+
+  #trialPage {
+    min-height: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  input[type=radio] {
+    -ms-transform: scale(1.15) !important;
+    -webkit-transform: scale(1.15) !important;
+    transform: scale(1.15) !important;
+    min-height: 18px !important;
+  }
+}
+footer {
+  margin-top: 40px;
+}
+footer .footer-top {
+  background: #353535;
+  padding: 50px 0;
+}
+footer .footer-top .footer-logo {
+  display: block;
+  margin-bottom: 30px;
+}
+footer .footer-top p {
+  color: #ffffff;
+}
+footer .footer-top .single-footer h3 {
+  color: #4CAF50;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+footer .footer-top .single-footer p {
+  font-size: 14px;
+}
+footer .footer-top .single-footer ul,
+footer .footer-top .single-footer ol {
+  list-style: none !important;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+footer .footer-top .single-footer ul li,
+footer .footer-top .single-footer ol li {
+  display: block;
+}
+footer .footer-top .single-footer ul li:last-child a,
+footer .footer-top .single-footer ol li:last-child a {
+  border: none;
+}
+footer .footer-top .single-footer ul li ul,
+footer .footer-top .single-footer ol li ul {
+  margin-left: 15px;
+}
+footer .footer-top .single-footer ul li ul li,
+footer .footer-top .single-footer ol li ul li {
+  margin-left: 10px;
+}
+footer .footer-top .single-footer ul li ul li:last-child,
+footer .footer-top .single-footer ol li ul li:last-child {
+  border: none;
+}
+footer .footer-top .single-footer ul li ul li a,
+footer .footer-top .single-footer ol li ul li a {
+  padding: 8px 0;
+}
+footer .footer-top .single-footer ul li span,
+footer .footer-top .single-footer ol li span {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  color: #000000;
+}
+footer .footer-top .single-footer ul li a,
+footer .footer-top .single-footer ol li a {
+  color: #dddddd;
+  text-transform: capitalize;
+  padding: 5px 0 5px 15px;
+  display: block;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid #716a6a;
+  position: relative;
+  font-size: 13px;
+}
+footer .footer-top .single-footer ul li a:before,
+footer .footer-top .single-footer ol li a:before {
+  background: #4CAF50;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+  width: 6px;
+  height: 6px;
+  content: "";
+  border-radius: 0;
+}
+footer .footer-top .single-footer ul li a:hover,
+footer .footer-top .single-footer ol li a:hover {
+  color: #4CAF50;
+}
+footer .footer-buttom {
+  background: #000000;
+  color: #ffffff;
+  font-size: 14px;
+}
+footer .footer-buttom p {
+  margin: 0;
+}
